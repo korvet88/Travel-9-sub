@@ -21,9 +21,15 @@ body{
 	height: 1700px;
 	background-color: #e8e8e8;
 }
+	
+.wrap-all{
+	padding: 106px 142px 108px 530px;
+	display: flex;
+}
+
 .wrapper{
 	border: 2px solid black;
-	margin: 106px 142px 108px 530px;
+	
 	width: 1190px;
 	height: 1064px;
 	background-color: #e8e8e8;
@@ -31,7 +37,7 @@ body{
 
 }
 .travel{
-	padding: 62px 529px 594px 28px;
+	padding:  62px 594px 28px 529px;
 	opacity: 0.6;
 	font-family: Arial;
 	font-size: 14px;
@@ -41,7 +47,20 @@ body{
 
 	color: #273d46;
 }
+.Hed-text{
+	font-family: 'Times New Roman';
+	font-size: 36px;
+	line-height: 50px;
+	font-weight: 400;
+	color: #273d46;
+	padding: 0px 264px 77px 205px;
+	text-align: center;
+}
+
+
+
 .picture-group{
+	margin: 0 202px 97px 147px;
 	width: 841px;
 	height: 561px;
 	box-shadow: 0px 15px 65px 0px rgba(15,16,16,0.15);
@@ -51,20 +70,77 @@ body{
 	background-position: center, center;
 	background-size: 100%, 100%;
 }
-
-
-
-.story{
-	border: 2px solid black;
-	width: 199px;
-	height: 44px;
-	background-color: rgba(128,183,179,0.54);
-	box-shadow: 0px 6px 40px 0px rgba(128,183,179,0.54);	
-
+.two-blocks{
+	margin: 97px 262px -103px 192px;
+	opacity: 0.8;
+	font-family: 'Times New Roman';
+	font-size: 24px;
+	line-height: 40px;
+	font-weight: 400;
+	color: #273d46;
 }
+
 
 .vector-button{
 	color: black;
 }
+.footer-wrapper{
+	padding: 167px 0 0 225px;
+}
+.block-1{
+	font-family: Arial;
+	font-size: 20px;
+	line-height: 36px;
+	font-weight: 400;
+	text-shadow: 0px 1px 0px rgba(0,0,0,0.3);
+	color: #273d46;
+}
+.block-2{
+	font-family: Arial;
+	font-size: 20px;
+	line-height: 36px;
+	font-weight: 400;
+	font-style: italic;
+	color: #80b7b3;
+}
+.block-3{
+	font-family: Arial;
+	font-size: 20px;
+	line-height: 36px;
+	font-weight: 700;
+	color: #273d46;
+}
+.block-4{
+	opacity: 0.3;
+	font-family: Arial;
+	font-size: 20px;
+	line-height: 36px;
+	font-weight: 400;
+	text-decoration: line-through;
+	color: #273d46;
+}
 
+.story{
+	
+	border-radius: 20px;
+	width: 199px;
+	height: 44px;
+	background-color: rgba(128,183,179,0.54);
+	box-shadow: 0px 6px 40px 0px rgba(128,183,179,0.54);	
+}
+.text-button{
+	padding: 17px 59px 30px;
+	font-family: Arial;
+	font-size: 14px;
+	line-height: 40px;
+	font-weight: 400;
+	text-transform: uppercase;
+	letter-spacing: 0.2em;
+	color: #ffffff;
+}
+.vector-button{
+	padding: 15px 27px 15px 0;
+	
+	
+}
 
