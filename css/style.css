@@ -16,5 +16,35 @@ img{vertical-align: top;}
 h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
 /*--------------------*/
 
+body{
+	background-color: #e8e8e8
+}
 
+.content {
+	padding: 125px 0 137px 0;
+	max-width: 871px;
+	margin: 0% auto;
+}
+.content_top {
 
+}
+.content_top_item {
+}
+.content_header {
+}
+.content_image {
+}
+.content_image_item {
+}
+.content_text {
+}
+.content_bottom {
+}
+.content_footer {
+}
+.content_footer_list {
+}
+.content_button_block {
+}
+.story_ref {
+}
