@@ -110,10 +110,9 @@ body{
 	display: inline-block;
 	line-height: 44px;
 	border-radius: 25px;
-	box-shadow: 0px 6px 40px 0px;
+	box-shadow: 0 5px 1px rgba(0,0,0,0.5);
 	padding: 0 30px;
 	background-color: #80b7b3;
-
 	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
 	font-size: 14px;
 	text-transform: uppercase;
@@ -126,4 +125,12 @@ body{
 	padding: 0 32px 0 0;
 	background: url('/img/shape_2_9.png') right no-repeat;
 	
+}
+.content_button_block:hover {
+	color: #502223;
+}
+.content_button_block:active {
+	position: relative;
+	top: 3px;
+	box-shadow: 0 2px 1px rgba(0,0,0,0.5);
 }
